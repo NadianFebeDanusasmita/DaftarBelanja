@@ -1,0 +1,182 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="danu.sasmita.daftarbelanja"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\Dian.Danu\AndroidStudioProjects\DaftarBelanja\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Dian.Danu\AndroidStudioProjects\DaftarBelanja\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.firebaseui:firebase-ui-database:0.4.0] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\6132ddfdc67d308ef4afc53204c69395\jetified-firebase-ui-database-0.4.0\AndroidManifest.xml:11:5-67
+11-->[com.firebaseui:firebase-ui-database:0.4.0] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\6132ddfdc67d308ef4afc53204c69395\jetified-firebase-ui-database-0.4.0\AndroidManifest.xml:11:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:21:5-78
+12-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:21:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:22:5-67
+13-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:22:22-65
+14    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+14-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:22:5-81
+14-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:22:22-79
+15
+16    <permission
+16-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:24:5-109
+17        android:name="danu.sasmita.daftarbelanja.permission.C2D_MESSAGE"
+17-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:24:17-71
+18        android:protectionLevel="signature" />
+18-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:24:72-107
+19
+20    <uses-permission android:name="danu.sasmita.daftarbelanja.permission.C2D_MESSAGE" />
+20-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:26:5-78
+20-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:26:22-76
+21
+22    <application
+22-->C:\Users\Dian.Danu\AndroidStudioProjects\DaftarBelanja\app\src\main\AndroidManifest.xml:5:5-19:19
+23        android:allowBackup="true"
+23-->C:\Users\Dian.Danu\AndroidStudioProjects\DaftarBelanja\app\src\main\AndroidManifest.xml:6:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\Dian.Danu\AndroidStudioProjects\DaftarBelanja\app\src\main\AndroidManifest.xml:7:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\Dian.Danu\AndroidStudioProjects\DaftarBelanja\app\src\main\AndroidManifest.xml:8:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\Dian.Danu\AndroidStudioProjects\DaftarBelanja\app\src\main\AndroidManifest.xml:9:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\Dian.Danu\AndroidStudioProjects\DaftarBelanja\app\src\main\AndroidManifest.xml:10:9-35
+30        android:theme="@style/AppTheme" >
+30-->C:\Users\Dian.Danu\AndroidStudioProjects\DaftarBelanja\app\src\main\AndroidManifest.xml:11:9-40
+31        <activity android:name="danu.sasmita.daftarbelanja.MainActivity" >
+31-->C:\Users\Dian.Danu\AndroidStudioProjects\DaftarBelanja\app\src\main\AndroidManifest.xml:12:9-18:20
+31-->C:\Users\Dian.Danu\AndroidStudioProjects\DaftarBelanja\app\src\main\AndroidManifest.xml:12:19-47
+32            <intent-filter>
+32-->C:\Users\Dian.Danu\AndroidStudioProjects\DaftarBelanja\app\src\main\AndroidManifest.xml:13:13-17:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\Dian.Danu\AndroidStudioProjects\DaftarBelanja\app\src\main\AndroidManifest.xml:14:17-69
+33-->C:\Users\Dian.Danu\AndroidStudioProjects\DaftarBelanja\app\src\main\AndroidManifest.xml:14:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\Dian.Danu\AndroidStudioProjects\DaftarBelanja\app\src\main\AndroidManifest.xml:16:17-77
+35-->C:\Users\Dian.Danu\AndroidStudioProjects\DaftarBelanja\app\src\main\AndroidManifest.xml:16:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <receiver
+39-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:25:7-26:18
+40            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+40-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:25:17-89
+41            android:enabled="true"
+41-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:25:90-112
+42            android:exported="false" >
+42-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:25:113-137
+43        </receiver>
+44        <receiver
+44-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:27:7-31:18
+45            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+45-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:27:17-104
+46            android:enabled="true"
+46-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:27:162-184
+47            android:permission="android.permission.INSTALL_PACKAGES" >
+47-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:27:105-161
+48            <intent-filter>
+48-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:28:11-30:27
+49                <action android:name="com.android.vending.INSTALL_REFERRER" />
+49-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:29:15-76
+49-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:29:23-74
+50            </intent-filter>
+51        </receiver>
+52
+53        <service
+53-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:32:7-137
+54            android:name="com.google.android.gms.measurement.AppMeasurementService"
+54-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:32:16-87
+55            android:enabled="true"
+55-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:32:88-110
+56            android:exported="false" />
+56-->[com.google.firebase:firebase-analytics:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\9dc9c7cb0873f26e2aace8d670c520fc\jetified-firebase-analytics-10.0.1\AndroidManifest.xml:32:111-135
+57
+58        <receiver
+58-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:30:9-36:20
+59            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+59-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:30:19-84
+60            android:exported="true"
+60-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:30:85-108
+61            android:permission="com.google.android.c2dm.permission.SEND" >
+61-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:30:109-169
+62            <intent-filter>
+62-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:31:13-35:29
+63                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+63-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:32:17-80
+63-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:32:25-78
+64                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+64-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:33:17-85
+64-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:33:25-83
+65
+66                <category android:name="danu.sasmita.daftarbelanja" />
+66-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:34:17-60
+66-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:34:27-58
+67            </intent-filter>
+68        </receiver>
+69        <!--
+70 Internal (not exported) receiver used by the app to start its own exported services
+71             without risk of being spoofed.
+72        -->
+73        <receiver
+73-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:40:9-119
+74            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+74-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:40:19-92
+75            android:exported="false" />
+75-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:40:93-117
+76        <!--
+77 FirebaseInstanceIdService performs security checks at runtime,
+78             no need for explicit permissions despite exported="true"
+79        -->
+80        <service
+80-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:44:9-48:19
+81            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+81-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:44:18-82
+82            android:exported="true" >
+82-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:44:83-106
+83            <intent-filter android:priority="-500" >
+83-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:45:13-47:29
+83-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:45:28-51
+84                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+84-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:46:17-79
+84-->[com.google.firebase:firebase-iid:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\61f608b22bf71889c6134e75946f6cf0\jetified-firebase-iid-10.0.1\AndroidManifest.xml:46:25-77
+85            </intent-filter>
+86        </service>
+87
+88        <provider
+88-->[com.google.firebase:firebase-common:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\061818fee8b48378a9aba9b5ac15a882\jetified-firebase-common-10.0.1\AndroidManifest.xml:6:9-194
+89            android:name="com.google.firebase.provider.FirebaseInitProvider"
+89-->[com.google.firebase:firebase-common:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\061818fee8b48378a9aba9b5ac15a882\jetified-firebase-common-10.0.1\AndroidManifest.xml:6:79-143
+90            android:authorities="danu.sasmita.daftarbelanja.firebaseinitprovider"
+90-->[com.google.firebase:firebase-common:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\061818fee8b48378a9aba9b5ac15a882\jetified-firebase-common-10.0.1\AndroidManifest.xml:6:19-78
+91            android:exported="false"
+91-->[com.google.firebase:firebase-common:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\061818fee8b48378a9aba9b5ac15a882\jetified-firebase-common-10.0.1\AndroidManifest.xml:6:144-168
+92            android:initOrder="100" />
+92-->[com.google.firebase:firebase-common:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\061818fee8b48378a9aba9b5ac15a882\jetified-firebase-common-10.0.1\AndroidManifest.xml:6:169-192
+93
+94        <activity
+94-->[com.google.android.gms:play-services-base:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\5b0db45b41858ab8e452bc10d6b66256\jetified-play-services-base-10.0.1\AndroidManifest.xml:19:9-172
+95            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+95-->[com.google.android.gms:play-services-base:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\5b0db45b41858ab8e452bc10d6b66256\jetified-play-services-base-10.0.1\AndroidManifest.xml:19:19-85
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-base:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\5b0db45b41858ab8e452bc10d6b66256\jetified-play-services-base-10.0.1\AndroidManifest.xml:19:146-170
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-base:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\5b0db45b41858ab8e452bc10d6b66256\jetified-play-services-base-10.0.1\AndroidManifest.xml:19:86-145
+98
+99        <meta-data
+99-->[com.google.android.gms:play-services-basement:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\c7e5f7bd8587fae19e39e7dad2bfbe14\jetified-play-services-basement-10.0.1\AndroidManifest.xml:20:9-121
+100            android:name="com.google.android.gms.version"
+100-->[com.google.android.gms:play-services-basement:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\c7e5f7bd8587fae19e39e7dad2bfbe14\jetified-play-services-basement-10.0.1\AndroidManifest.xml:20:20-65
+101            android:value="@integer/google_play_services_version" />
+101-->[com.google.android.gms:play-services-basement:10.0.1] C:\Users\Dian.Danu\.gradle\caches\transforms-2\files-2.1\c7e5f7bd8587fae19e39e7dad2bfbe14\jetified-play-services-basement-10.0.1\AndroidManifest.xml:20:66-119
+102    </application>
+103
+104</manifest>
